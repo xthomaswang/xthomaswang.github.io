@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "About Me"
+title                    : "Xijing Wang"
 title_separator          : "-"
 name                     : &name "Xijing Wang(Thomas)"
 description              : &description "personal description"
@@ -21,7 +21,7 @@ repository               : "xthomaswang/xthomaswang.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "assets/images/me.jpeg"
+  avatar           : "me.png"
   name             : "Xijing Wang (Thomas) / 王熙景"
   pronouns         : # example: "she/her"  
   bio              : "ML Engnineer, IOS/Full Stack Developer, Research Engineer"
