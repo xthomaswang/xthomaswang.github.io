@@ -10,7 +10,10 @@ main:
 
   - title: "Software Project"
     url: /software-projects/
+
+  - title: "中文"
+    url: /cn/
   
-  - title: "FinTech Project"
-    url: /fintech-projects/
+  - title: "English"
+    url: /
 
