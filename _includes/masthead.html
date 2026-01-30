@@ -2,7 +2,7 @@
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
+    <div class="masthead__menu" style="position: relative;">
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
@@ -18,6 +18,18 @@
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
+      <!-- Language Switcher -->
+      <div class="language-switcher">
+        {% if page.permalink == '/cn/' %}
+          <a href="{{ base_path }}/" title="Switch to English" class="lang-icon">
+            <i class="fas fa-globe"></i> EN
+          </a>
+        {% else %}
+          <a href="{{ base_path }}/cn/" title="切换到中文" class="lang-icon">
+            <i class="fas fa-globe"></i> 中文
+          </a>
+        {% endif %}
+      </div>
     </div>
   </div>
 </div>

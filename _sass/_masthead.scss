@@ -56,3 +56,40 @@
     font-weight: 700;
   }
 }
+
+/* Language Switcher */
+.language-switcher {
+  position: absolute;
+  right: 1em;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 20;
+
+  .lang-icon {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3em;
+    padding: 0.5em 0.8em;
+    background: #f3f3f3;
+    border-radius: 20px;
+    color: #494e52;
+    font-size: 0.9em;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    text-decoration: none;
+
+    i {
+      font-size: 1.1em;
+    }
+
+    &:hover {
+      background: #494e52;
+      color: white;
+      transform: scale(1.05);
+    }
+  }
+
+  @include breakpoint($small) {
+    right: 1.5em;
+  }
+}
