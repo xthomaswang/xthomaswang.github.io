@@ -62,13 +62,17 @@
 }
 
 /* Language Switcher */
+.greedy-nav {
+  display: flex !important;
+  align-items: center;
+  flex-wrap: nowrap;
+}
 
 .language-switcher {
   display: flex;
   align-items: center;
   margin-left: auto;
   padding-left: 1em;
-  z-index: 30;
 
   .lang-icon {
     display: inline-flex;
