@@ -9,7 +9,8 @@ author_profile: true
 
 我在**圣塔克拉拉大学（Santa Clara University）** 完成了计算机科学理学学士学位（辅修经济学）。我的研究兴趣包括：
 
-- 机器学习和深度学习的应用
+- 机器学习和深度学习应用
+- Embedding 模型训练和 RAG 系统
 - 机器学习系统与基础设施
 - AI 驱动的自动化与机器人技术
 - 可扩展和隐私保护的全栈系统
@@ -33,7 +34,7 @@ author_profile: true
 
 详细信息请访问：
 
-- [研究项目](/rs-projects/) - 学术研究和科学应用
+- [研究项目](/rs-projects/) - 学术研究和机器学习应用
 - [软件项目](/software-projects/) - 全栈开发和工程项目
 
 ---

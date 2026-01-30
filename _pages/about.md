@@ -12,7 +12,8 @@ I am **Xijing Wang**, a graduate student in the **Master of Science in Automated
 
 I completed my B.S. in Computer Science (Economics minor) at **Santa Clara University**. My research interests include:
 
-- Machine learning and deep learning applications 
+- Machine learning and deep learning applications
+- Embedding model training and RAG systems
 - Machine learning systems and infrastructure
 - AI-driven automation and robotics
 - Scalable and privacy-aware full-stack systems
@@ -36,7 +37,7 @@ Research Intern at LCCN Lab, Santa Clara University. Fine-tuned ResNet50, CNNs, 
 
 For detailed information about my work, please visit:
 
-- [Research Projects](/rs-projects/) - Academic research and scientific applications
+- [Research Projects](/rs-projects/) - Academic research and ML applications
 - [Software Projects](/software-projects/) - Full-stack development and engineering work
 
 ---

@@ -37,6 +37,10 @@
 }
 
 .masthead__menu {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
   ul {
     margin: 0;
@@ -58,12 +62,13 @@
 }
 
 /* Language Switcher */
+
 .language-switcher {
-  position: absolute;
-  right: 1em;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 20;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  padding-left: 1em;
+  z-index: 30;
 
   .lang-icon {
     display: inline-flex;
@@ -77,6 +82,7 @@
     font-weight: 500;
     transition: all 0.3s ease;
     text-decoration: none;
+    white-space: nowrap;
 
     i {
       font-size: 1.1em;
@@ -90,6 +96,6 @@
   }
 
   @include breakpoint($small) {
-    right: 1.5em;
+    padding-left: 1.5em;
   }
 }
