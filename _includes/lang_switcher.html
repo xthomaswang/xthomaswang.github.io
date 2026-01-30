@@ -1,0 +1,45 @@
+{% comment %}
+  Language Switcher - finds corresponding translated page by ref and lang
+  Falls back to home pages if no translation exists
+{% endcomment %}
+
+{% assign current_lang = page.lang | default: "en" %}
+{% assign current_ref = page.ref %}
+
+{% if current_lang == "en" %}
+  {% assign target_lang = "zh" %}
+  {% assign fallback_url = "/cn/" %}
+  {% assign label = "中文" %}
+  {% assign switch_title = "Switch to Chinese" %}
+  {% assign switch_aria = "Switch to Chinese version" %}
+{% else %}
+  {% assign target_lang = "en" %}
+  {% assign fallback_url = "/" %}
+  {% assign label = "EN" %}
+  {% assign switch_title = "切换到英文" %}
+  {% assign switch_aria = "切换到英文版本" %}
+{% endif %}
+
+{% assign target_url = fallback_url %}
+{% assign found = false %}
+
+{% if current_ref %}
+  {% comment %} Search both pages and posts in single loop {% endcomment %}
+  {% assign all_content = site.pages | concat: site.posts %}
+  {% for item in all_content %}
+    {% if item.ref == current_ref and item.lang == target_lang %}
+      {% assign target_url = item.url %}
+      {% assign found = true %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+<a href="{{ target_url | relative_url }}" 
+   lang="{{ target_lang }}" 
+   title="{{ switch_title }}" 
+   aria-label="{{ switch_aria }}"
+   class="lang-link">
+  <i class="fas fa-globe" aria-hidden="true"></i>
+  <span>{{ label }}</span>
+</a>

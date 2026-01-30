@@ -4,7 +4,9 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+        <button aria-label="Toggle navigation menu" aria-controls="site-nav" aria-expanded="false">
+          <div class="navicon"></div>
+        </button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
           {% for link in site.data.navigation.main %}
@@ -15,21 +17,12 @@
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
+          <li class="masthead__menu-item language-switcher">
+            {% include lang_switcher.html %}
+          </li>
         </ul>
         <ul class="hidden-links hidden"></ul>
-        <!-- Language Switcher -->
       </nav>
-    </div>
-    <div class="language-switcher">
-      {% if page.permalink == '/cn/' %}
-        <a href="{{ base_path }}/" title="Switch to English" class="lang-icon">
-          <i class="fas fa-globe"></i> EN
-        </a>
-      {% else %}
-        <a href="{{ base_path }}/cn/" title="切换到中文" class="lang-icon">
-          <i class="fas fa-globe"></i> 中文
-        </a>
-      {% endif %}
     </div>
   </div>
 </div>
