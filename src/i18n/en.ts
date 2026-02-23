@@ -33,7 +33,7 @@ export const en = {
       },
       {
         date: 'Dec 2025',
-        text: 'Poster at **NeurIPS 2025** — Workshop on GenAI for Health: Potential, Trust, and Policy Compliance. San Diego, CA.',
+        text: 'Poster at [**GenAI4Health**](https://genai4health.github.io/) @NeurIPS 2025 — The Second Workshop on GenAI for Health: Potential, Trust, and Policy Compliance. San Diego, CA.',
         tag: 'Publication',
       },
       {
@@ -48,7 +48,7 @@ export const en = {
       },
       {
         date: 'July 2025',
-        text: 'Poster at **CogSci 2025** — San Francisco, CA.',
+        text: 'Poster at [**CogSci 2025**](https://cognitivesciencesociety.org/cogsci-2025/) — 47th Annual Meeting of the Cognitive Science Society. San Francisco, CA.',
         tag: 'Publication',
       },
       {

@@ -33,7 +33,7 @@ export const zh = {
       },
       {
         date: '2025年12月',
-        text: '海报发表于 **NeurIPS 2025** — GenAI for Health: Potential, Trust, and Policy Compliance Workshop。San Diego, CA。',
+        text: '海报发表于 [**GenAI4Health**](https://genai4health.github.io/) @NeurIPS 2025 — The Second Workshop on GenAI for Health: Potential, Trust, and Policy Compliance。San Diego, CA。',
         tag: '发表',
       },
       {
@@ -48,7 +48,7 @@ export const zh = {
       },
       {
         date: '2025年7月',
-        text: '海报发表于 **CogSci 2025** — San Francisco, CA。',
+        text: '海报发表于 [**CogSci 2025**](https://cognitivesciencesociety.org/cogsci-2025/) — 第47届认知科学学会年会。San Francisco, CA。',
         tag: '发表',
       },
       {
