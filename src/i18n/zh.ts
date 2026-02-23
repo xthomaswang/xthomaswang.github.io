@@ -10,7 +10,11 @@ export const zh = {
     name: '王熙景 (Thomas)',
     role: 'SDE · MLE · Research Engineer',
     school: '卡内基梅隆大学 计算机科学学院',
-    bio: '卡内基梅隆大学自动化科学硕士。兴趣方向：AI Agent、ML 系统、全栈智能应用。正在寻求 SDE / MLE / Research Engineer 职位。',
+    bioPrefix: '卡内基梅隆大学自动化科学硕士。圣塔克拉拉大学计算机科学学士（PI: ',
+    piName: 'Dr. Lang Chen',
+    bioMid: '，导师: ',
+    advisorName: 'Dr. Nicholas Q. Tran',
+    bioSuffix: '）。兴趣方向：AI Agent、ML 系统、全栈智能应用。',
     location: '美国 宾夕法尼亚州 匹兹堡',
   },
   updates: {

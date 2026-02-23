@@ -10,7 +10,11 @@ export const en = {
     name: 'Xijing Wang (Thomas)',
     role: 'SDE · MLE · Research Engineer',
     school: 'Carnegie Mellon University, School of Computer Science',
-    bio: 'MS in Automated Science @ CMU SCS. Interested in AI Agents, ML Systems, and full-stack intelligent applications. Seeking SDE / MLE / Research Engineer roles.',
+    bioPrefix: 'MS in Automated Science @ CMU SCS. B.S. in Computer Science @ Santa Clara University (PI: ',
+    piName: 'Dr. Lang Chen',
+    bioMid: ', Advisor: ',
+    advisorName: 'Dr. Nicholas Q. Tran',
+    bioSuffix: '). Interested in AI Agents, ML Systems, and full-stack intelligent applications.',
     location: 'Pittsburgh, PA',
   },
   updates: {
