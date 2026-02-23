@@ -7,7 +7,7 @@ const projects = defineCollection({
     titleZh: z.string(),
     description: z.string(),
     descriptionZh: z.string(),
-    category: z.enum(['research', 'software']),
+    category: z.enum(['research', 'software', 'opensource']),
     tags: z.array(z.string()),
     links: z.object({
       github: z.string().optional(),

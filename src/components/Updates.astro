@@ -31,9 +31,12 @@ function parseMarkdownBold(text: string): string {
 ---
 
 <section id="updates" class="py-12">
-  <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white mb-8">
-    {s.updates.title}
-  </h2>
+  <div class="flex items-baseline justify-between mb-8">
+    <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white">
+      {s.updates.title}
+    </h2>
+    <span class="text-xs text-slate-400 dark:text-slate-500">{s.footer.lastUpdated}</span>
+  </div>
   <div class="space-y-4">
     {s.updates.items.map((item) => (
       <div class="flex gap-4 p-4 rounded-xl bg-slate-50 dark:bg-slate-800/50 border border-slate-100 dark:border-slate-700/50 hover:border-slate-200 dark:hover:border-slate-600 transition-colors">

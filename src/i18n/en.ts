@@ -8,9 +8,9 @@ export const en = {
   },
   hero: {
     name: 'Xijing Wang (Thomas)',
-    role: 'SDE / MLE',
+    role: 'SDE · MLE · Research Engineer',
     school: 'Carnegie Mellon University, School of Computer Science',
-    bio: 'MS in Automated Science @ CMU SCS. Building intelligent systems at the intersection of machine learning, systems engineering, and software development.',
+    bio: 'MS in Automated Science @ CMU SCS. Interested in AI Agents, ML Systems, and full-stack intelligent applications. Seeking SDE / MLE / Research Engineer roles.',
     location: 'Pittsburgh, PA',
   },
   updates: {
@@ -22,19 +22,19 @@ export const en = {
         tag: 'Upcoming',
       },
       {
-        date: '2025',
-        text: 'Built a clinical embedding model for biomedical literature analysis — RAG pipeline with PubMed & MedRxiv for structured clinical variable extraction.',
-        tag: 'Project',
-      },
-      {
-        date: '2025',
+        date: 'Jan — Feb 2026',
         text: 'Open source contributor to **mlc-ai/mlc-llm** — on-device LLM deployment framework. Used in Headache Note iOS app with quantized LLaMA 3.',
         tag: 'Open Source',
       },
       {
-        date: 'July 2025',
-        text: 'Research Engineer at CMU — building AI-powered biomedical literature analysis platform with RAG pipeline, embedding-based semantic search, and dynamic LLM optimization.',
-        tag: 'Work',
+        date: 'Jan — Feb 2026',
+        text: 'Open source contributor to **xthomaswang/OpenOT2** — lab automation framework for the OT-2 liquid handling robot.',
+        tag: 'Open Source',
+      },
+      {
+        date: 'July — Dec 2025',
+        text: 'Research Engineer at CMU — built AI-powered biomedical literature analysis platform with RAG pipeline and embedding-based semantic search. Fine-tuned **Qwen3 0.6B** embedding model on multi-GPU, achieving strong benchmark on **PMC-Patients PPR** task. Poster at **NeurIPS 2025** Workshop on GenAI for Health.',
+        tag: 'Research',
       },
       {
         date: 'Aug 2025',
@@ -62,10 +62,10 @@ export const en = {
       {
         role: 'Research Engineer (AI Agent)',
         company: 'Carnegie Mellon University',
-        period: 'July 2025 — Present',
+        period: 'July 2025 — Dec 2025',
         location: 'Pittsburgh, PA',
-        description: 'Built an AI-powered biomedical literature analysis platform with Quick (<30s) and Deep (<=3min) modes using a RAG pipeline with parallel retrieval from PubMed and MedRxiv. Implemented structured query parsing, embedding-based semantic search with reranking, and dynamic LLM model optimization.',
-        current: true,
+        description: 'Built an AI-powered biomedical literature analysis platform with Quick (<30s) and Deep (<=3min) modes using a RAG pipeline with parallel retrieval from PubMed and MedRxiv. Fine-tuned Qwen3 0.6B embedding model on multi-GPU, achieving strong benchmark results on PMC-Patients PPR task. Poster at NeurIPS 2025 Workshop on GenAI for Health.',
+        current: false,
       },
       {
         role: 'ML Engineer Intern',
@@ -82,6 +82,7 @@ export const en = {
     filterAll: 'All',
     filterResearch: 'Research',
     filterSoftware: 'Software',
+    filterOpenSource: 'Open Source',
     viewGitHub: 'GitHub',
     viewPaper: 'Paper',
     viewDemo: 'Demo',
@@ -98,6 +99,27 @@ export const en = {
   footer: {
     lastUpdated: 'Last updated: Feb 2026',
     rights: 'All rights reserved.',
+  },
+  education: {
+    title: 'Education',
+    items: [
+      {
+        school: 'Carnegie Mellon University',
+        degree: 'M.S. in Automated Science',
+        department: 'School of Computer Science',
+        period: 'Aug 2025 — May 2027',
+        location: 'Pittsburgh, PA',
+        honors: "Dean's Scholarship",
+      },
+      {
+        school: 'Santa Clara University',
+        degree: 'B.S. in Computer Science, Minor in Economics',
+        department: 'College of Arts and Sciences',
+        period: 'Sep 2021 — Mar 2025',
+        location: 'Santa Clara, CA',
+        honors: 'REAL Program Scholar',
+      },
+    ],
   },
   skills: {
     title: 'Skills',

@@ -8,9 +8,9 @@ export const zh = {
   },
   hero: {
     name: '王熙景 (Thomas)',
-    role: 'SDE / MLE',
+    role: 'SDE · MLE · Research Engineer',
     school: '卡内基梅隆大学 计算机科学学院',
-    bio: '卡内基梅隆大学自动化科学硕士。专注于机器学习、系统工程和软件开发的交叉领域，构建智能系统。',
+    bio: '卡内基梅隆大学自动化科学硕士。兴趣方向：AI Agent、ML 系统、全栈智能应用。正在寻求 SDE / MLE / Research Engineer 职位。',
     location: '美国 宾夕法尼亚州 匹兹堡',
   },
   updates: {
@@ -22,19 +22,19 @@ export const zh = {
         tag: '即将',
       },
       {
-        date: '2025',
-        text: '构建了临床嵌入模型，用于生物医学文献分析 — 基于 RAG 管道从 PubMed 和 MedRxiv 提取结构化临床变量。',
-        tag: '项目',
-      },
-      {
-        date: '2025',
+        date: '2026年1月 — 2月',
         text: '开源贡献者 **mlc-ai/mlc-llm** — 端侧大语言模型部署框架。在 Headache Note iOS 应用中使用量化 LLaMA 3。',
         tag: '开源',
       },
       {
-        date: '2025年7月',
-        text: '在 CMU 担任研究工程师 — 构建基于 RAG 管道、嵌入语义搜索和动态 LLM 优化的 AI 生物医学文献分析平台。',
-        tag: '工作',
+        date: '2026年1月 — 2月',
+        text: '开源贡献 **xthomaswang/OpenOT2** — 面向 OT-2 液体处理机器人的实验室自动化框架。',
+        tag: '开源',
+      },
+      {
+        date: '2025年7月 — 12月',
+        text: '在 CMU 担任研究工程师 — 构建基于 RAG 管道和嵌入语义搜索的 AI 生物医学文献分析平台。在多 GPU 上微调 **Qwen3 0.6B** 嵌入模型，在 **PMC-Patients PPR** 任务上取得优秀 benchmark。海报发表于 **NeurIPS 2025** GenAI for Health Workshop。',
+        tag: '研究',
       },
       {
         date: '2025年8月',
@@ -62,10 +62,10 @@ export const zh = {
       {
         role: '研究工程师（AI Agent）',
         company: '卡内基梅隆大学',
-        period: '2025年7月 — 至今',
+        period: '2025年7月 — 2025年12月',
         location: 'Pittsburgh, PA',
-        description: '构建了 AI 驱动的生物医学文献分析平台，支持快速（<30s）和深度（<=3min）模式，使用 RAG 管道从 PubMed 和 MedRxiv 并行检索。实现了结构化查询解析、嵌入语义搜索与重排序、动态 LLM 模型优化。',
-        current: true,
+        description: '构建了 AI 驱动的生物医学文献分析平台，支持快速（<30s）和深度（<=3min）模式，使用 RAG 管道从 PubMed 和 MedRxiv 并行检索。在多 GPU 上微调 Qwen3 0.6B 嵌入模型，在 PMC-Patients PPR 任务上取得优秀 benchmark。海报发表于 NeurIPS 2025 GenAI for Health Workshop。',
+        current: false,
       },
       {
         role: '机器学习工程师实习生',
@@ -82,6 +82,7 @@ export const zh = {
     filterAll: '全部',
     filterResearch: '研究',
     filterSoftware: '软件',
+    filterOpenSource: '开源贡献',
     viewGitHub: 'GitHub',
     viewPaper: '论文',
     viewDemo: '演示',
@@ -98,6 +99,27 @@ export const zh = {
   footer: {
     lastUpdated: '最后更新：2026年2月',
     rights: '保留所有权利。',
+  },
+  education: {
+    title: '教育',
+    items: [
+      {
+        school: '卡内基梅隆大学',
+        degree: '自动化科学硕士',
+        department: '计算机科学学院',
+        period: '2025年8月 — 2027年5月',
+        location: 'Pittsburgh, PA',
+        honors: "Dean's Scholarship",
+      },
+      {
+        school: '圣塔克拉拉大学',
+        degree: '计算机科学理学学士，经济学辅修',
+        department: '文理学院',
+        period: '2021年9月 — 2025年3月',
+        location: 'Santa Clara, CA',
+        honors: 'REAL Program Scholar',
+      },
+    ],
   },
   skills: {
     title: '技能',

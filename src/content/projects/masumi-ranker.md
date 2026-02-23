@@ -8,5 +8,5 @@ tags: ["Python", "FastAPI", "Faiss", "Transformers", "React"]
 links:
   github: "https://github.com/xthomaswang/Masumi_Hackathon_Whym_MasumiRanker"
 date: "2025"
-order: 5
+order: 6
 ---

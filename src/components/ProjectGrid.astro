@@ -29,6 +29,9 @@ const projects = (await getCollection('projects')).sort((a, b) => a.data.order -
     <button data-filter="software" class="filter-btn px-4 py-1.5 text-sm font-medium rounded-full border transition-colors">
       {s.projects.filterSoftware}
     </button>
+    <button data-filter="opensource" class="filter-btn px-4 py-1.5 text-sm font-medium rounded-full border transition-colors">
+      {s.projects.filterOpenSource}
+    </button>
   </div>
 
   <!-- Grid -->
