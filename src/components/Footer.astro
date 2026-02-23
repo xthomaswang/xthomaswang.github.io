@@ -1,0 +1,17 @@
+---
+import { t, type Lang } from '../i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const s = t(lang);
+---
+
+<footer class="border-t border-slate-200 dark:border-slate-700/50 py-8 mt-16">
+  <div class="max-w-5xl mx-auto px-5 sm:px-8 flex flex-col sm:flex-row items-center justify-between gap-3 text-sm text-slate-500 dark:text-slate-400">
+    <p>&copy; 2025 Xijing Wang. {s.footer.rights}</p>
+    <p>{s.footer.lastUpdated}</p>
+  </div>
+</footer>

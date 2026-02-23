@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import Updates from '../components/Updates.astro';
+import Experience from '../components/Experience.astro';
+import Skills from '../components/Skills.astro';
+import ProjectGrid from '../components/ProjectGrid.astro';
+import ResumeLinks from '../components/ResumeLinks.astro';
+
+const lang = 'en';
+---
+
+<BaseLayout
+  title="Xijing Wang (Thomas) — SDE / MLE"
+  description="Personal website of Xijing Wang — CMU SCS graduate student focused on machine learning, systems engineering, and software development."
+  lang={lang}
+>
+  <Hero lang={lang} />
+  <Updates lang={lang} />
+  <Experience lang={lang} />
+  <Skills lang={lang} />
+  <ProjectGrid lang={lang} />
+  <ResumeLinks lang={lang} />
+</BaseLayout>

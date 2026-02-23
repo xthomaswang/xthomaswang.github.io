@@ -1,0 +1,98 @@
+---
+import { getCollection } from 'astro:content';
+import ProjectCard from './ProjectCard.astro';
+import { t, type Lang } from '../i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const s = t(lang);
+
+const projects = (await getCollection('projects')).sort((a, b) => a.data.order - b.data.order);
+---
+
+<section id="projects" class="py-12">
+  <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white mb-6">
+    {s.projects.title}
+  </h2>
+
+  <!-- Filter tabs -->
+  <div class="flex gap-2 mb-8" id="project-filters">
+    <button data-filter="all" class="filter-btn active px-4 py-1.5 text-sm font-medium rounded-full border transition-colors">
+      {s.projects.filterAll}
+    </button>
+    <button data-filter="research" class="filter-btn px-4 py-1.5 text-sm font-medium rounded-full border transition-colors">
+      {s.projects.filterResearch}
+    </button>
+    <button data-filter="software" class="filter-btn px-4 py-1.5 text-sm font-medium rounded-full border transition-colors">
+      {s.projects.filterSoftware}
+    </button>
+  </div>
+
+  <!-- Grid -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4" id="project-grid">
+    {projects.map((project) => (
+      <ProjectCard
+        title={lang === 'zh' ? project.data.titleZh : project.data.title}
+        description={lang === 'zh' ? project.data.descriptionZh : project.data.description}
+        category={project.data.category}
+        tags={project.data.tags}
+        links={project.data.links}
+        lang={lang}
+      />
+    ))}
+  </div>
+</section>
+
+<style>
+  .filter-btn {
+    border-color: var(--color-slate-200);
+    color: var(--color-slate-500);
+    background: transparent;
+  }
+  .filter-btn:hover {
+    border-color: var(--color-slate-300);
+    color: var(--color-slate-700);
+  }
+  .filter-btn.active {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+    color: white;
+  }
+  :global(.dark) .filter-btn {
+    border-color: var(--color-slate-700);
+    color: var(--color-slate-400);
+  }
+  :global(.dark) .filter-btn:hover {
+    border-color: var(--color-slate-500);
+    color: var(--color-slate-200);
+  }
+  :global(.dark) .filter-btn.active {
+    background: var(--color-primary-light);
+    border-color: var(--color-primary-light);
+    color: var(--color-slate-900);
+  }
+</style>
+
+<script>
+  const buttons = document.querySelectorAll<HTMLButtonElement>('.filter-btn');
+  const cards = document.querySelectorAll<HTMLElement>('#project-grid > div');
+
+  buttons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const filter = btn.dataset.filter!;
+      buttons.forEach((b) => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      cards.forEach((card) => {
+        if (filter === 'all' || card.dataset.category === filter) {
+          card.style.display = '';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  });
+</script>

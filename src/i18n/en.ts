@@ -1,0 +1,110 @@
+export const en = {
+  lang: 'en' as const,
+  nav: {
+    about: 'About',
+    experience: 'Experience',
+    projects: 'Projects',
+    resume: 'Resume',
+  },
+  hero: {
+    name: 'Xijing Wang (Thomas)',
+    role: 'SDE / MLE',
+    school: 'Carnegie Mellon University, School of Computer Science',
+    bio: 'MS in Automated Science @ CMU SCS. Building intelligent systems at the intersection of machine learning, systems engineering, and software development.',
+    location: 'Pittsburgh, PA',
+  },
+  updates: {
+    title: 'Updates',
+    items: [
+      {
+        date: 'Summer 2026',
+        text: 'Incoming Software Development Engineer Intern at **Apple**.',
+        tag: 'Upcoming',
+      },
+      {
+        date: '2025',
+        text: 'Built a clinical embedding model for biomedical literature analysis — RAG pipeline with PubMed & MedRxiv for structured clinical variable extraction.',
+        tag: 'Project',
+      },
+      {
+        date: '2025',
+        text: 'Open source contributor to **mlc-ai/mlc-llm** — on-device LLM deployment framework. Used in Headache Note iOS app with quantized LLaMA 3.',
+        tag: 'Open Source',
+      },
+      {
+        date: 'July 2025',
+        text: 'Research Engineer at CMU — building AI-powered biomedical literature analysis platform with RAG pipeline, embedding-based semantic search, and dynamic LLM optimization.',
+        tag: 'Work',
+      },
+      {
+        date: 'Aug 2025',
+        text: 'Started graduate studies at **Carnegie Mellon University** in the MSAS program, School of Computer Science. Dean\'s Scholarship recipient.',
+        tag: 'Education',
+      },
+      {
+        date: '2024',
+        text: 'ML Research Intern at LCCN Lab, SCU. Fine-tuned CNNs and Vision Transformers for neuroscience research. Poster at **CogSci 2025**; paper under review at *Communication Biology*.',
+        tag: 'Research',
+      },
+    ],
+  },
+  experience: {
+    title: 'Experience',
+    items: [
+      {
+        role: 'SDE Intern',
+        company: 'Apple',
+        period: 'Summer 2026',
+        location: 'Cupertino, CA',
+        description: 'Incoming Software Development Engineer Intern.',
+        current: false,
+      },
+      {
+        role: 'Research Engineer (AI Agent)',
+        company: 'Carnegie Mellon University',
+        period: 'July 2025 — Present',
+        location: 'Pittsburgh, PA',
+        description: 'Built an AI-powered biomedical literature analysis platform with Quick (<30s) and Deep (<=3min) modes using a RAG pipeline with parallel retrieval from PubMed and MedRxiv. Implemented structured query parsing, embedding-based semantic search with reranking, and dynamic LLM model optimization.',
+        current: true,
+      },
+      {
+        role: 'ML Engineer Intern',
+        company: 'LCCN Lab, Santa Clara University',
+        period: 'June 2024 — Sep 2024',
+        location: 'Santa Clara, CA',
+        description: 'Developed CNN models for neuroscience research. Preprocessed fMRI data for HPC platform. Paper accepted at CogSci 2025; under review at Communication Biology.',
+        current: false,
+      },
+    ],
+  },
+  projects: {
+    title: 'Projects',
+    filterAll: 'All',
+    filterResearch: 'Research',
+    filterSoftware: 'Software',
+    viewGitHub: 'GitHub',
+    viewPaper: 'Paper',
+    viewDemo: 'Demo',
+  },
+  resume: {
+    title: 'Resume & CV',
+    subtitle: 'Download the version most relevant to you.',
+    academicCV: 'Academic CV',
+    mleResume: 'MLE Resume',
+    sdeResume: 'SDE Resume',
+    zhResume: 'Chinese Resume',
+    updated: 'Updated',
+  },
+  footer: {
+    lastUpdated: 'Last updated: Feb 2026',
+    rights: 'All rights reserved.',
+  },
+  skills: {
+    title: 'Skills',
+    languages: 'Languages',
+    mobile: 'Mobile',
+    aiml: 'AI / ML',
+    backend: 'Backend',
+    concepts: 'Concepts',
+  },
+} as const;

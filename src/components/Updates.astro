@@ -1,0 +1,52 @@
+---
+import { t, type Lang } from '../i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const s = t(lang);
+
+const tagColors: Record<string, string> = {
+  'Upcoming': 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400',
+  '即将': 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400',
+  'Project': 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400',
+  '项目': 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400',
+  'Open Source': 'bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-400',
+  '开源': 'bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-400',
+  'Work': 'bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400',
+  '工作': 'bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400',
+  'Education': 'bg-cyan-100 text-cyan-700 dark:bg-cyan-900/30 dark:text-cyan-400',
+  '教育': 'bg-cyan-100 text-cyan-700 dark:bg-cyan-900/30 dark:text-cyan-400',
+  'Research': 'bg-rose-100 text-rose-700 dark:bg-rose-900/30 dark:text-rose-400',
+  '研究': 'bg-rose-100 text-rose-700 dark:bg-rose-900/30 dark:text-rose-400',
+};
+
+function parseMarkdownBold(text: string): string {
+  return text
+    .replace(/\*\*(.+?)\*\*/g, '<strong class="font-semibold text-slate-900 dark:text-white">$1</strong>')
+    .replace(/\*(.+?)\*/g, '<em>$1</em>');
+}
+---
+
+<section id="updates" class="py-12">
+  <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white mb-8">
+    {s.updates.title}
+  </h2>
+  <div class="space-y-4">
+    {s.updates.items.map((item) => (
+      <div class="flex gap-4 p-4 rounded-xl bg-slate-50 dark:bg-slate-800/50 border border-slate-100 dark:border-slate-700/50 hover:border-slate-200 dark:hover:border-slate-600 transition-colors">
+        <div class="shrink-0 pt-0.5">
+          <span class={`inline-block px-2.5 py-0.5 text-xs font-medium rounded-full ${tagColors[item.tag] || 'bg-slate-100 text-slate-600 dark:bg-slate-700 dark:text-slate-300'}`}>
+            {item.tag}
+          </span>
+        </div>
+        <div class="flex-1 min-w-0">
+          <p class="text-slate-700 dark:text-slate-300 text-sm leading-relaxed" set:html={parseMarkdownBold(item.text)} />
+          <p class="mt-1 text-xs text-slate-400 dark:text-slate-500">{item.date}</p>
+        </div>
+      </div>
+    ))}
+  </div>
+</section>

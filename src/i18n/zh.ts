@@ -1,0 +1,110 @@
+export const zh = {
+  lang: 'zh' as const,
+  nav: {
+    about: '关于',
+    experience: '经历',
+    projects: '项目',
+    resume: '简历',
+  },
+  hero: {
+    name: '王熙景 (Thomas)',
+    role: 'SDE / MLE',
+    school: '卡内基梅隆大学 计算机科学学院',
+    bio: '卡内基梅隆大学自动化科学硕士。专注于机器学习、系统工程和软件开发的交叉领域，构建智能系统。',
+    location: '美国 宾夕法尼亚州 匹兹堡',
+  },
+  updates: {
+    title: '最新动态',
+    items: [
+      {
+        date: '2026年夏',
+        text: '即将加入 **Apple** 担任软件开发工程师实习生。',
+        tag: '即将',
+      },
+      {
+        date: '2025',
+        text: '构建了临床嵌入模型，用于生物医学文献分析 — 基于 RAG 管道从 PubMed 和 MedRxiv 提取结构化临床变量。',
+        tag: '项目',
+      },
+      {
+        date: '2025',
+        text: '开源贡献者 **mlc-ai/mlc-llm** — 端侧大语言模型部署框架。在 Headache Note iOS 应用中使用量化 LLaMA 3。',
+        tag: '开源',
+      },
+      {
+        date: '2025年7月',
+        text: '在 CMU 担任研究工程师 — 构建基于 RAG 管道、嵌入语义搜索和动态 LLM 优化的 AI 生物医学文献分析平台。',
+        tag: '工作',
+      },
+      {
+        date: '2025年8月',
+        text: '开始在**卡内基梅隆大学**计算机科学学院攻读自动化科学硕士学位。获 Dean\'s Scholarship。',
+        tag: '教育',
+      },
+      {
+        date: '2024',
+        text: '在圣塔克拉拉大学 LCCN 实验室担任机器学习研究实习生。微调 CNN 和 Vision Transformer 用于神经科学研究。海报被 **CogSci 2025** 接收；论文在 *Communication Biology* 审稿中。',
+        tag: '研究',
+      },
+    ],
+  },
+  experience: {
+    title: '工作经历',
+    items: [
+      {
+        role: '软件开发工程师实习生',
+        company: 'Apple',
+        period: '2026年夏',
+        location: 'Cupertino, CA',
+        description: '即将加入的软件开发工程师实习。',
+        current: false,
+      },
+      {
+        role: '研究工程师（AI Agent）',
+        company: '卡内基梅隆大学',
+        period: '2025年7月 — 至今',
+        location: 'Pittsburgh, PA',
+        description: '构建了 AI 驱动的生物医学文献分析平台，支持快速（<30s）和深度（<=3min）模式，使用 RAG 管道从 PubMed 和 MedRxiv 并行检索。实现了结构化查询解析、嵌入语义搜索与重排序、动态 LLM 模型优化。',
+        current: true,
+      },
+      {
+        role: '机器学习工程师实习生',
+        company: 'LCCN 实验室，圣塔克拉拉大学',
+        period: '2024年6月 — 2024年9月',
+        location: 'Santa Clara, CA',
+        description: '开发 CNN 模型用于神经科学研究。预处理 fMRI 数据并部署到 HPC 平台。论文被 CogSci 2025 接收，正在 Communication Biology 审稿中。',
+        current: false,
+      },
+    ],
+  },
+  projects: {
+    title: '项目',
+    filterAll: '全部',
+    filterResearch: '研究',
+    filterSoftware: '软件',
+    viewGitHub: 'GitHub',
+    viewPaper: '论文',
+    viewDemo: '演示',
+  },
+  resume: {
+    title: '简历',
+    subtitle: '下载最适合你的版本。',
+    academicCV: '学术简历',
+    mleResume: 'MLE 简历',
+    sdeResume: 'SDE 简历',
+    zhResume: '中文简历',
+    updated: '更新于',
+  },
+  footer: {
+    lastUpdated: '最后更新：2026年2月',
+    rights: '保留所有权利。',
+  },
+  skills: {
+    title: '技能',
+    languages: '编程语言',
+    mobile: '移动开发',
+    aiml: 'AI / ML',
+    backend: '后端',
+    concepts: '架构',
+  },
+} as const;

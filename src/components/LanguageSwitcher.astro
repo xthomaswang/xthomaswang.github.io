@@ -1,0 +1,35 @@
+---
+import type { Lang } from '../i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+---
+
+<div class="flex items-center gap-1 text-sm">
+  <a
+    href="/"
+    class:list={[
+      'px-2 py-1 rounded transition-colors',
+      lang === 'en'
+        ? 'text-primary dark:text-primary-light font-semibold'
+        : 'text-slate-500 dark:text-slate-400 hover:text-slate-800 dark:hover:text-slate-200',
+    ]}
+  >
+    EN
+  </a>
+  <span class="text-slate-300 dark:text-slate-600">|</span>
+  <a
+    href="/zh/"
+    class:list={[
+      'px-2 py-1 rounded transition-colors',
+      lang === 'zh'
+        ? 'text-primary dark:text-primary-light font-semibold'
+        : 'text-slate-500 dark:text-slate-400 hover:text-slate-800 dark:hover:text-slate-200',
+    ]}
+  >
+    ZH
+  </a>
+</div>

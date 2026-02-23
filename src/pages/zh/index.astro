@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Hero from '../../components/Hero.astro';
+import Updates from '../../components/Updates.astro';
+import Experience from '../../components/Experience.astro';
+import Skills from '../../components/Skills.astro';
+import ProjectGrid from '../../components/ProjectGrid.astro';
+import ResumeLinks from '../../components/ResumeLinks.astro';
+
+const lang = 'zh';
+---
+
+<BaseLayout
+  title="王熙景 (Thomas) — SDE / MLE"
+  description="王熙景的个人网站 — 卡内基梅隆大学计算机科学学院硕士生，专注于机器学习、系统工程和软件开发。"
+  lang={lang}
+>
+  <Hero lang={lang} />
+  <Updates lang={lang} />
+  <Experience lang={lang} />
+  <Skills lang={lang} />
+  <ProjectGrid lang={lang} />
+  <ResumeLinks lang={lang} />
+</BaseLayout>

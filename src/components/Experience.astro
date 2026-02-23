@@ -1,0 +1,37 @@
+---
+import { t, type Lang } from '../i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const s = t(lang);
+---
+
+<section id="experience" class="py-12">
+  <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white mb-8">
+    {s.experience.title}
+  </h2>
+  <div class="space-y-6">
+    {s.experience.items.map((item) => (
+      <div class="relative pl-6 border-l-2 border-slate-200 dark:border-slate-700">
+        <div class="absolute -left-[9px] top-1 w-4 h-4 rounded-full border-2 border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900">
+          {item.current && (
+            <span class="absolute inset-1 rounded-full bg-primary dark:bg-primary-light animate-pulse" />
+          )}
+        </div>
+        <div class="pb-2">
+          <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1">
+            <h3 class="font-semibold text-slate-900 dark:text-white">
+              {item.role} <span class="font-normal text-slate-500 dark:text-slate-400">@ {item.company}</span>
+            </h3>
+            <span class="text-sm text-slate-500 dark:text-slate-400 shrink-0">{item.period}</span>
+          </div>
+          <p class="text-xs text-slate-400 dark:text-slate-500 mt-0.5">{item.location}</p>
+          <p class="mt-2 text-sm text-slate-600 dark:text-slate-300 leading-relaxed">{item.description}</p>
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
