@@ -32,8 +32,13 @@ export const zh = {
         tag: '开源',
       },
       {
+        date: '2025年12月',
+        text: '海报发表于 **NeurIPS 2025** — GenAI for Health: Potential, Trust, and Policy Compliance Workshop。San Diego, CA。',
+        tag: '发表',
+      },
+      {
         date: '2025年7月 — 12月',
-        text: '在 CMU 担任研究工程师 — 构建基于 RAG 管道和嵌入语义搜索的 AI 生物医学文献分析平台。在多 GPU 上微调 **Qwen3 0.6B** 嵌入模型，在 **PMC-Patients PPR** 任务上取得优秀 benchmark。海报发表于 **NeurIPS 2025** GenAI for Health Workshop。',
+        text: '在 CMU 担任研究工程师 — 构建基于 RAG 管道和嵌入语义搜索的 AI 生物医学文献分析平台。在多 GPU 上微调 **Qwen3 0.6B** 嵌入模型，在 **PMC-Patients PPR** 任务上取得优秀 benchmark。',
         tag: '研究',
       },
       {
@@ -42,8 +47,13 @@ export const zh = {
         tag: '教育',
       },
       {
+        date: '2025年7月',
+        text: '海报发表于 **CogSci 2025** — San Francisco, CA。',
+        tag: '发表',
+      },
+      {
         date: '2024',
-        text: '在圣塔克拉拉大学 LCCN 实验室担任机器学习研究实习生。微调 CNN 和 Vision Transformer 用于神经科学研究。海报被 **CogSci 2025** 接收；论文在 *Communication Biology* 审稿中。',
+        text: '在圣塔克拉拉大学 LCCN 实验室担任机器学习研究实习生。微调 CNN 和 Vision Transformer 用于神经科学假设验证。构建 fMRI 数据处理和表征分析管道。',
         tag: '研究',
       },
     ],

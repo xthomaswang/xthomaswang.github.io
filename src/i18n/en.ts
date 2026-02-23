@@ -32,8 +32,13 @@ export const en = {
         tag: 'Open Source',
       },
       {
+        date: 'Dec 2025',
+        text: 'Poster at **NeurIPS 2025** — Workshop on GenAI for Health: Potential, Trust, and Policy Compliance. San Diego, CA.',
+        tag: 'Publication',
+      },
+      {
         date: 'July — Dec 2025',
-        text: 'Research Engineer at CMU — built AI-powered biomedical literature analysis platform with RAG pipeline and embedding-based semantic search. Fine-tuned **Qwen3 0.6B** embedding model on multi-GPU, achieving strong benchmark on **PMC-Patients PPR** task. Poster at **NeurIPS 2025** Workshop on GenAI for Health.',
+        text: 'Research Engineer at CMU — built AI-powered biomedical literature analysis platform with RAG pipeline and embedding-based semantic search. Fine-tuned **Qwen3 0.6B** embedding model on multi-GPU, achieving strong benchmark on **PMC-Patients PPR** task.',
         tag: 'Research',
       },
       {
@@ -42,8 +47,13 @@ export const en = {
         tag: 'Education',
       },
       {
+        date: 'July 2025',
+        text: 'Poster at **CogSci 2025** — San Francisco, CA.',
+        tag: 'Publication',
+      },
+      {
         date: '2024',
-        text: 'ML Research Intern at LCCN Lab, SCU. Fine-tuned CNNs and Vision Transformers for neuroscience research. Poster at **CogSci 2025**; paper under review at *Communication Biology*.',
+        text: 'ML Research Intern at LCCN Lab, SCU. Fine-tuned CNNs and Vision Transformers to test neuroscience hypotheses. Built fMRI data processing and representation analysis pipelines.',
         tag: 'Research',
       },
     ],
