@@ -23,11 +23,6 @@ export const zh = {
     title: '最新动态',
     items: [
       {
-        date: '2026年夏',
-        text: '即将加入 **Apple** 担任软件开发工程师实习生。',
-        tag: '即将',
-      },
-      {
         date: '2026年1月 — 2月',
         text: '开源贡献者 **mlc-ai/mlc-llm** — 端侧大语言模型部署框架。在 Headache Note iOS 应用中使用量化 LLaMA 3。',
         tag: '开源',
@@ -67,14 +62,6 @@ export const zh = {
   experience: {
     title: '工作经历',
     items: [
-      {
-        role: '软件开发工程师实习生',
-        company: 'Apple',
-        period: '2026年夏',
-        location: 'Cupertino, CA',
-        description: '即将加入的软件开发工程师实习。',
-        current: false,
-      },
       {
         role: '研究工程师（AI Agent）',
         company: '卡内基梅隆大学',

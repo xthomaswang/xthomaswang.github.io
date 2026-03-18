@@ -23,11 +23,6 @@ export const en = {
     title: 'Updates',
     items: [
       {
-        date: 'Summer 2026',
-        text: 'Incoming Software Development Engineer Intern at **Apple**.',
-        tag: 'Upcoming',
-      },
-      {
         date: 'Jan — Feb 2026',
         text: 'Open source contributor to **mlc-ai/mlc-llm** — on-device LLM deployment framework. Used in Headache Note iOS app with quantized LLaMA 3.',
         tag: 'Open Source',
@@ -67,14 +62,6 @@ export const en = {
   experience: {
     title: 'Experience',
     items: [
-      {
-        role: 'SDE Intern',
-        company: 'Apple',
-        period: 'Summer 2026',
-        location: 'Cupertino, CA',
-        description: 'Incoming Software Development Engineer Intern.',
-        current: false,
-      },
       {
         role: 'Research Engineer (AI Agent)',
         company: 'Carnegie Mellon University',
