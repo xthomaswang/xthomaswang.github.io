@@ -8,5 +8,5 @@ tags: ["Python", "Robotics", "Automation", "Lab"]
 links:
   github: "https://github.com/xthomaswang/OpenOT2"
 date: "2026"
-order: 3
+order: 5
 ---

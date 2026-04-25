@@ -23,13 +23,23 @@ export const en = {
     title: 'Updates',
     items: [
       {
-        date: 'Jan — Feb 2026',
-        text: 'Open source contributor to **mlc-ai/mlc-llm** — on-device LLM deployment framework. Used in Headache Note iOS app with quantized LLaMA 3.',
+        date: 'Since Apr 2026',
+        text: 'Open source contributor to [**apache/tvm**](https://github.com/apache/tvm) — end-to-end deep learning compiler stack for CPUs, GPUs, and specialized accelerators.',
         tag: 'Open Source',
       },
       {
-        date: 'Jan — Feb 2026',
-        text: 'Open source contributor to **xthomaswang/OpenOT2** — lab automation framework for the OT-2 liquid handling robot.',
+        date: 'Since Apr 2026',
+        text: 'Building [**localmelo/localmelo**](https://github.com/localmelo/localmelo) — a local-first AI agent framework with progressive long-term memory and Sleep Model embedding fine-tuning. Modular Melo / Support / Test architecture, supporting Ollama, MLC, and OpenAI-compatible backends.',
+        tag: 'Open Source',
+      },
+      {
+        date: 'Since Jan 2026',
+        text: 'Open source contributor to [**mlc-ai/mlc-llm**](https://github.com/mlc-ai/mlc-llm) — on-device LLM deployment framework. Used in Headache Note iOS app with quantized LLaMA 3.',
+        tag: 'Open Source',
+      },
+      {
+        date: 'Since Jan 2026',
+        text: 'Open source contributor to [**xthomaswang/OpenOT2**](https://github.com/xthomaswang/OpenOT2) — lab automation framework for the OT-2 liquid handling robot.',
         tag: 'Open Source',
       },
       {

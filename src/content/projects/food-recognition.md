@@ -8,5 +8,5 @@ tags: ["Swift", "SwiftUI", "TensorFlow", "CoreML", "Python"]
 links:
   github: "https://github.com/xthomaswang/FoodRecogProj"
 date: "2024"
-order: 7
+order: 9
 ---

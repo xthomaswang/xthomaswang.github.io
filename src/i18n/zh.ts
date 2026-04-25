@@ -23,13 +23,23 @@ export const zh = {
     title: '最新动态',
     items: [
       {
-        date: '2026年1月 — 2月',
-        text: '开源贡献者 **mlc-ai/mlc-llm** — 端侧大语言模型部署框架。在 Headache Note iOS 应用中使用量化 LLaMA 3。',
+        date: '自 2026年4月',
+        text: '开源贡献者 [**apache/tvm**](https://github.com/apache/tvm) — 面向 CPU、GPU 及专用加速器的端到端深度学习编译框架。',
         tag: '开源',
       },
       {
-        date: '2026年1月 — 2月',
-        text: '开源贡献 **xthomaswang/OpenOT2** — 面向 OT-2 液体处理机器人的实验室自动化框架。',
+        date: '自 2026年4月',
+        text: '正在构建 [**localmelo/localmelo**](https://github.com/localmelo/localmelo) — 本地优先 AI 智能体框架，构建渐进式长期记忆系统，并通过 Sleep Model 微调 Embedding 模型。模块化架构（Melo 核心 / Support 支撑 / Test 测试），支持 Ollama、MLC 与 OpenAI 兼容接口。',
+        tag: '开源',
+      },
+      {
+        date: '自 2026年1月',
+        text: '开源贡献者 [**mlc-ai/mlc-llm**](https://github.com/mlc-ai/mlc-llm) — 端侧大语言模型部署框架。在 Headache Note iOS 应用中使用量化 LLaMA 3。',
+        tag: '开源',
+      },
+      {
+        date: '自 2026年1月',
+        text: '开源贡献 [**xthomaswang/OpenOT2**](https://github.com/xthomaswang/OpenOT2) — 面向 OT-2 液体处理机器人的实验室自动化框架。',
         tag: '开源',
       },
       {
