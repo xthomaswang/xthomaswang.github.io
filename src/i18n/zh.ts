@@ -8,7 +8,7 @@ export const zh = {
   },
   hero: {
     name: '王熙景 (Thomas)',
-    role: 'SDE · MLE · Research Engineer',
+    role: 'Apple 软件工程实习生 · MLE · Research Engineer',
     school: '卡内基梅隆大学 计算机科学学院',
     bioLine1: '卡内基梅隆大学计算机科学学院自动化科学硕士在读。',
     bioLine2Prefix: '本科毕业于圣塔克拉拉大学计算机科学专业（算法方向），师从 ',
@@ -21,57 +21,110 @@ export const zh = {
   },
   updates: {
     title: '最新动态',
+    openSourceSummary: {
+      title: '开源项目',
+      text: '参与贡献或构建的代表项目：',
+      projects: [
+        { name: 'coremltools', href: 'https://github.com/apple/coremltools' },
+        { name: 'MLX', href: 'https://github.com/ml-explore/mlx' },
+        { name: 'TVM', href: 'https://github.com/apache/tvm' },
+        { name: 'localmelo', href: 'https://github.com/localmelo/localmelo' },
+        { name: 'MLC-LLM', href: 'https://github.com/mlc-ai/mlc-llm' },
+        { name: 'OpenOT2', href: 'https://github.com/xthomaswang/OpenOT2' },
+      ],
+    },
     items: [
+      {
+        date: '2026年6月',
+        text: '[**Core ML Tools**](https://github.com/apple/coremltools/pull/2731) — LightGBM 到 Core ML 的转换器，支持 Booster、LGBMClassifier 与 LGBMRegressor 模型。',
+        tag: '开源',
+        labels: ['coremltools', 'Core ML', 'LightGBM'],
+      },
+      {
+        date: '2026年6月',
+        text: '[**MLX**](https://github.com/ml-explore/mlx/pull/3650) — 支持从非 Metal 构建环境导出自定义 Metal kernel。',
+        tag: '开源',
+        labels: ['MLX', 'Metal', 'Export'],
+      },
+      {
+        date: '2026年5月 — 8月',
+        text: '2026 Summer 在 **Apple** 担任软件工程实习生，所在团队为 Wireless Technology Ecosystem 下的 Analytics & Data Science，方向为 agent 开发与 applied ML。',
+        tag: '工作',
+        labels: ['Apple', 'ADS', 'Agent Dev', 'Applied ML'],
+      },
+      {
+        date: '2026年4月',
+        text: '论文发表于 [**Communications Biology**](https://www.nature.com/articles/s42003-026-10094-2) — **E/I imbalance and internal noise cause weak neural representations and face recognition challenges in ASD**。',
+        tag: '发表',
+        labels: ['Nature Portfolio', 'ASD', 'Computational Neuroscience'],
+      },
       {
         date: '自 2026年4月',
         text: '开源贡献者 [**apache/tvm**](https://github.com/apache/tvm) — 面向 CPU、GPU 及专用加速器的端到端深度学习编译框架。',
         tag: '开源',
+        labels: ['TVM', 'Compiler', 'MLSys'],
       },
       {
         date: '自 2026年4月',
         text: '正在构建 [**localmelo/localmelo**](https://github.com/localmelo/localmelo) — 本地优先 AI 智能体框架，构建渐进式长期记忆系统，并通过 Sleep Model 微调 Embedding 模型。模块化架构（Melo 核心 / Support 支撑 / Test 测试），支持 Ollama、MLC 与 OpenAI 兼容接口。',
         tag: '开源',
+        labels: ['localmelo', 'AI Agent', 'Memory'],
       },
       {
         date: '自 2026年1月',
         text: '开源贡献者 [**mlc-ai/mlc-llm**](https://github.com/mlc-ai/mlc-llm) — 端侧大语言模型部署框架。在 Headache Note iOS 应用中使用量化 LLaMA 3。',
         tag: '开源',
+        labels: ['MLC-LLM', '端侧 LLM', 'iOS'],
       },
       {
         date: '自 2026年1月',
         text: '开源贡献 [**xthomaswang/OpenOT2**](https://github.com/xthomaswang/OpenOT2) — 面向 OT-2 液体处理机器人的实验室自动化框架。',
         tag: '开源',
+        labels: ['OpenOT2', 'Lab Automation', 'Robotics'],
       },
       {
         date: '2025年12月',
         text: '海报发表于 [**GenAI4Health**](https://genai4health.github.io/) @NeurIPS 2025 — The Second Workshop on GenAI for Health: Potential, Trust, and Policy Compliance。San Diego, CA。',
         tag: '发表',
+        labels: ['NeurIPS', 'Health AI'],
       },
       {
         date: '2025年7月 — 12月',
         text: '在 CMU 担任研究工程师 — 构建基于 RAG 管道和嵌入语义搜索的 AI 生物医学文献分析平台。在多 GPU 上微调 **Qwen3 0.6B** 嵌入模型，在 **PMC-Patients PPR** 任务上取得优秀 benchmark。',
         tag: '研究',
+        labels: ['CMU', 'RAG', 'Embeddings'],
       },
       {
         date: '2025年8月',
-        text: '开始在**卡内基梅隆大学**计算机科学学院攻读自动化科学硕士学位。获 Dean\'s Scholarship。',
+        text: '开始在**卡内基梅隆大学**计算机科学学院攻读自动化科学硕士学位。获系级 Director\'s Scholarship。',
         tag: '教育',
+        labels: ['CMU', 'MSAS'],
       },
       {
         date: '2025年7月',
         text: '海报发表于 [**CogSci 2025**](https://cognitivesciencesociety.org/cogsci-2025/) — 第47届认知科学学会年会。San Francisco, CA。',
         tag: '发表',
+        labels: ['CogSci', 'Neuroscience'],
       },
       {
         date: '2024',
         text: '在圣塔克拉拉大学 LCCN 实验室担任机器学习研究实习生。微调 CNN 和 Vision Transformer 用于神经科学假设验证。构建 fMRI 数据处理和表征分析管道。',
         tag: '研究',
+        labels: ['LCCN', 'fMRI', 'Vision'],
       },
     ],
   },
   experience: {
     title: '工作经历',
     items: [
+      {
+        role: '软件工程实习生',
+        company: 'Apple',
+        period: '2026年5月 — 2026年8月',
+        location: 'Cupertino, CA',
+        description: '2026 Summer 实习，所在团队为 Wireless Technology Ecosystem 下的 Analytics & Data Science，方向为 agent 开发与 applied ML。',
+        current: true,
+      },
       {
         role: '研究工程师（AI Agent）',
         company: '卡内基梅隆大学',
@@ -85,7 +138,7 @@ export const zh = {
         company: 'LCCN 实验室，圣塔克拉拉大学',
         period: '2024年6月 — 2024年9月',
         location: 'Santa Clara, CA',
-        description: '开发 CNN 模型用于神经科学研究。预处理 fMRI 数据并部署到 HPC 平台。论文被 CogSci 2025 接收，正在 Communication Biology 审稿中。',
+        description: '开发 CNN 模型用于神经科学研究，并为 HPC 工作流预处理 fMRI 数据。论文发表于 Communications Biology；海报被 CogSci 2025 接收。',
         current: false,
       },
     ],
@@ -110,7 +163,7 @@ export const zh = {
     updated: '更新于',
   },
   footer: {
-    lastUpdated: '最后更新：2026年2月',
+    lastUpdated: '最后更新：2026年6月',
     rights: '保留所有权利。',
   },
   education: {
@@ -122,7 +175,7 @@ export const zh = {
         department: '计算机科学学院',
         period: '2025年8月 — 2027年5月',
         location: 'Pittsburgh, PA',
-        honors: "Dean's Scholarship",
+        honors: "Director's Scholarship",
       },
       {
         school: '圣塔克拉拉大学',

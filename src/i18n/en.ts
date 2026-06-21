@@ -8,7 +8,7 @@ export const en = {
   },
   hero: {
     name: 'Xijing Wang (Thomas)',
-    role: 'SDE · MLE · Research Engineer',
+    role: 'Apple SDE Intern · MLE · Research Engineer',
     school: 'Carnegie Mellon University, School of Computer Science',
     bioLine1: "I'm a graduate student at Carnegie Mellon University (School of Computer Science), pursuing an M.S. in Automated Science.",
     bioLine2Prefix: 'I received my B.S. in Computer Science (emphasis in Algorithms) from Santa Clara University, where I worked with ',
@@ -21,57 +21,110 @@ export const en = {
   },
   updates: {
     title: 'Updates',
+    openSourceSummary: {
+      title: 'Open Source',
+      text: 'Selected projects I contribute to or build:',
+      projects: [
+        { name: 'coremltools', href: 'https://github.com/apple/coremltools' },
+        { name: 'MLX', href: 'https://github.com/ml-explore/mlx' },
+        { name: 'TVM', href: 'https://github.com/apache/tvm' },
+        { name: 'localmelo', href: 'https://github.com/localmelo/localmelo' },
+        { name: 'MLC-LLM', href: 'https://github.com/mlc-ai/mlc-llm' },
+        { name: 'OpenOT2', href: 'https://github.com/xthomaswang/OpenOT2' },
+      ],
+    },
     items: [
+      {
+        date: 'Jun 2026',
+        text: '[**Core ML Tools**](https://github.com/apple/coremltools/pull/2731) — LightGBM to Core ML converter supporting Booster, LGBMClassifier, and LGBMRegressor models.',
+        tag: 'Open Source',
+        labels: ['coremltools', 'Core ML', 'LightGBM'],
+      },
+      {
+        date: 'Jun 2026',
+        text: '[**MLX**](https://github.com/ml-explore/mlx/pull/3650) — custom Metal kernel export support from non-Metal builds.',
+        tag: 'Open Source',
+        labels: ['MLX', 'Metal', 'Export'],
+      },
+      {
+        date: 'May — Aug 2026',
+        text: 'Software Engineering Intern at **Apple**, Analytics & Data Science team in Wireless Technology Ecosystem. Focused on agent development and applied ML work.',
+        tag: 'Work',
+        labels: ['Apple', 'ADS', 'Agent Dev', 'Applied ML'],
+      },
+      {
+        date: 'Apr 2026',
+        text: 'Article published in [**Communications Biology**](https://www.nature.com/articles/s42003-026-10094-2) — **E/I imbalance and internal noise cause weak neural representations and face recognition challenges in ASD**.',
+        tag: 'Publication',
+        labels: ['Nature Portfolio', 'ASD', 'Computational Neuroscience'],
+      },
       {
         date: 'Since Apr 2026',
         text: 'Open source contributor to [**apache/tvm**](https://github.com/apache/tvm) — end-to-end deep learning compiler stack for CPUs, GPUs, and specialized accelerators.',
         tag: 'Open Source',
+        labels: ['TVM', 'Compiler', 'MLSys'],
       },
       {
         date: 'Since Apr 2026',
         text: 'Building [**localmelo/localmelo**](https://github.com/localmelo/localmelo) — a local-first AI agent framework with progressive long-term memory and Sleep Model embedding fine-tuning. Modular Melo / Support / Test architecture, supporting Ollama, MLC, and OpenAI-compatible backends.',
         tag: 'Open Source',
+        labels: ['localmelo', 'AI Agents', 'Memory'],
       },
       {
         date: 'Since Jan 2026',
         text: 'Open source contributor to [**mlc-ai/mlc-llm**](https://github.com/mlc-ai/mlc-llm) — on-device LLM deployment framework. Used in Headache Note iOS app with quantized LLaMA 3.',
         tag: 'Open Source',
+        labels: ['MLC-LLM', 'On-device LLM', 'iOS'],
       },
       {
         date: 'Since Jan 2026',
         text: 'Open source contributor to [**xthomaswang/OpenOT2**](https://github.com/xthomaswang/OpenOT2) — lab automation framework for the OT-2 liquid handling robot.',
         tag: 'Open Source',
+        labels: ['OpenOT2', 'Lab Automation', 'Robotics'],
       },
       {
         date: 'Dec 2025',
         text: 'Poster at [**GenAI4Health**](https://genai4health.github.io/) @NeurIPS 2025 — The Second Workshop on GenAI for Health: Potential, Trust, and Policy Compliance. San Diego, CA.',
         tag: 'Publication',
+        labels: ['NeurIPS', 'Health AI'],
       },
       {
         date: 'July — Dec 2025',
         text: 'Research Engineer at CMU — built AI-powered biomedical literature analysis platform with RAG pipeline and embedding-based semantic search. Fine-tuned **Qwen3 0.6B** embedding model on multi-GPU, achieving strong benchmark on **PMC-Patients PPR** task.',
         tag: 'Research',
+        labels: ['CMU', 'RAG', 'Embeddings'],
       },
       {
         date: 'Aug 2025',
-        text: 'Started graduate studies at **Carnegie Mellon University** in the MSAS program, School of Computer Science. Dean\'s Scholarship recipient.',
+        text: 'Started graduate studies at **Carnegie Mellon University** in the MSAS program, School of Computer Science. Director\'s Scholarship recipient.',
         tag: 'Education',
+        labels: ['CMU', 'MSAS'],
       },
       {
         date: 'July 2025',
         text: 'Poster at [**CogSci 2025**](https://cognitivesciencesociety.org/cogsci-2025/) — 47th Annual Meeting of the Cognitive Science Society. San Francisco, CA.',
         tag: 'Publication',
+        labels: ['CogSci', 'Neuroscience'],
       },
       {
         date: '2024',
         text: 'ML Research Intern at LCCN Lab, SCU. Fine-tuned CNNs and Vision Transformers to test neuroscience hypotheses. Built fMRI data processing and representation analysis pipelines.',
         tag: 'Research',
+        labels: ['LCCN', 'fMRI', 'Vision'],
       },
     ],
   },
   experience: {
     title: 'Experience',
     items: [
+      {
+        role: 'Software Engineering Intern',
+        company: 'Apple',
+        period: 'May 2026 — Aug 2026',
+        location: 'Cupertino, CA',
+        description: 'Summer 2026 internship on the Analytics & Data Science team in Wireless Technology Ecosystem, focused on agent development and applied ML work.',
+        current: true,
+      },
       {
         role: 'Research Engineer (AI Agent)',
         company: 'Carnegie Mellon University',
@@ -85,7 +138,7 @@ export const en = {
         company: 'LCCN Lab, Santa Clara University',
         period: 'June 2024 — Sep 2024',
         location: 'Santa Clara, CA',
-        description: 'Developed CNN models for neuroscience research. Preprocessed fMRI data for HPC platform. Paper accepted at CogSci 2025; under review at Communication Biology.',
+        description: 'Developed CNN models for neuroscience research and preprocessed fMRI data for HPC workflows. Article published in Communications Biology; poster accepted at CogSci 2025.',
         current: false,
       },
     ],
@@ -110,7 +163,7 @@ export const en = {
     updated: 'Updated',
   },
   footer: {
-    lastUpdated: 'Last updated: Feb 2026',
+    lastUpdated: 'Last updated: Jun 2026',
     rights: 'All rights reserved.',
   },
   education: {
@@ -122,7 +175,7 @@ export const en = {
         department: 'School of Computer Science',
         period: 'Aug 2025 — May 2027',
         location: 'Pittsburgh, PA',
-        honors: "Dean's Scholarship",
+        honors: "Director's Scholarship",
       },
       {
         school: 'Santa Clara University',
