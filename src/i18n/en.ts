@@ -48,7 +48,7 @@ export const en = {
       },
       {
         date: 'May — Aug 2026',
-        text: 'Software Engineering Intern at **Apple** (May 11 — Aug 21, 2026), building agentic end-to-end ML training workflows for cellular ML models and new iOS features on top of **WWDC26 Call Context** using on-device LLMs.',
+        text: 'Software Engineering Intern at **Apple** (May 11 — Aug 21, 2026), building agentic end-to-end ML training workflows for cellular ML models and **next-stage extensions of WWDC26 Call Context** using on-device LLMs.',
         tag: 'Work',
         labels: ['Apple', 'Agentic ML', 'Core ML', 'On-device LLM'],
       },
@@ -122,7 +122,7 @@ export const en = {
         company: 'Apple',
         period: 'May 2026 — Aug 2026',
         location: 'Cupertino, CA',
-        description: 'Built agentic developer workflows for cellular ML model training, evaluation, Core ML packaging, and iPhone performance validation. Developed iOS feature work on top of WWDC26 Call Context using on-device LLMs, integrating cross-functional internal infrastructure and managing session/prewarm, runtime invocation, and iPhone-side validation/performance.',
+        description: 'Built agentic developer workflows for cellular ML model training, evaluation, Core ML packaging, and iPhone performance validation. Developed iOS next-stage extensions of WWDC26 Call Context using on-device LLMs, integrating cross-functional internal infrastructure and managing session/prewarm, runtime invocation, and iPhone-side validation/performance.',
         current: true,
       },
       {
