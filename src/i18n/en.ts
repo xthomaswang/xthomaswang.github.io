@@ -8,7 +8,7 @@ export const en = {
   },
   hero: {
     name: 'Xijing Wang (Thomas)',
-    role: 'Apple SDE Intern · MLE · Research Engineer',
+    role: 'Apple Software Engineer Intern · MLE / MLSys · AI Agent',
     school: 'Carnegie Mellon University, School of Computer Science',
     bioLine1: "I'm a graduate student at Carnegie Mellon University (School of Computer Science), pursuing an M.S. in Automated Science.",
     bioLine2Prefix: 'I received my B.S. in Computer Science (emphasis in Algorithms) from Santa Clara University, where I worked with ',
@@ -16,7 +16,7 @@ export const en = {
     bioLine2Mid: ' and was advised by ',
     advisorName: 'Dr. Nicholas Q. Tran',
     bioLine2Suffix: '.',
-    bioLine3: 'My interests lie in AI Agents, ML Systems, and full-stack intelligent applications.',
+    bioLine3: 'My interests lie in agentic ML workflows, on-device LLM inference, ML systems, and full-stack intelligent applications.',
     location: 'Pittsburgh, PA',
   },
   updates: {
@@ -48,9 +48,9 @@ export const en = {
       },
       {
         date: 'May — Aug 2026',
-        text: 'Software Engineering Intern at **Apple**, Analytics & Data Science team in Wireless Technology Ecosystem. Focused on agent development and applied ML work.',
+        text: 'Software Engineering Intern at **Apple** (May 11 — Aug 21, 2026), building agentic end-to-end ML training workflows for cellular ML models and on-device LLM inference workflows for the **Call Context** feature announced at **WWDC26**.',
         tag: 'Work',
-        labels: ['Apple', 'ADS', 'Agent Dev', 'Applied ML'],
+        labels: ['Apple', 'Agentic ML', 'Core ML', 'On-device LLM'],
       },
       {
         date: 'Apr 2026',
@@ -122,7 +122,7 @@ export const en = {
         company: 'Apple',
         period: 'May 2026 — Aug 2026',
         location: 'Cupertino, CA',
-        description: 'Summer 2026 internship on the Analytics & Data Science team in Wireless Technology Ecosystem, focused on agent development and applied ML work.',
+        description: 'Built agentic developer workflows for cellular ML model training, evaluation, Core ML packaging, and iPhone performance validation. Developed workflow components for the WWDC26 Call Context on-device LLM feature, and contributed upstream to coremltools and MLX.',
         current: true,
       },
       {
@@ -163,7 +163,7 @@ export const en = {
     updated: 'Updated',
   },
   footer: {
-    lastUpdated: 'Last updated: Jun 2026',
+    lastUpdated: 'Last updated: Jul 2026',
     rights: 'All rights reserved.',
   },
   education: {

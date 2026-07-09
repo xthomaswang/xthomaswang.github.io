@@ -8,7 +8,7 @@ export const zh = {
   },
   hero: {
     name: '王熙景 (Thomas)',
-    role: 'Apple 软件工程实习生 · MLE · Research Engineer',
+    role: 'Apple 软件工程实习生 · MLE / MLSys · AI Agent',
     school: '卡内基梅隆大学 计算机科学学院',
     bioLine1: '卡内基梅隆大学计算机科学学院自动化科学硕士在读。',
     bioLine2Prefix: '本科毕业于圣塔克拉拉大学计算机科学专业（算法方向），师从 ',
@@ -16,7 +16,7 @@ export const zh = {
     bioLine2Mid: '，学术导师为 ',
     advisorName: 'Dr. Nicholas Q. Tran',
     bioLine2Suffix: '。',
-    bioLine3: '研究兴趣：AI Agent、ML 系统、全栈智能应用。',
+    bioLine3: '研究兴趣：agentic ML workflow、端侧 LLM 推理、ML 系统、全栈智能应用。',
     location: '美国 宾夕法尼亚州 匹兹堡',
   },
   updates: {
@@ -48,9 +48,9 @@ export const zh = {
       },
       {
         date: '2026年5月 — 8月',
-        text: '2026 Summer 在 **Apple** 担任软件工程实习生，所在团队为 Wireless Technology Ecosystem 下的 Analytics & Data Science，方向为 agent 开发与 applied ML。',
+        text: '2026 Summer 在 **Apple** 担任软件工程实习生（2026.05.11 — 2026.08.21），构建 cellular ML 模型的 agentic end-to-end training workflow，并参与 **WWDC26 Call Context** 端侧 **LLM 推理** workflow。',
         tag: '工作',
-        labels: ['Apple', 'ADS', 'Agent Dev', 'Applied ML'],
+        labels: ['Apple', 'Agentic ML', 'Core ML', '端侧 LLM'],
       },
       {
         date: '2026年4月',
@@ -122,7 +122,7 @@ export const zh = {
         company: 'Apple',
         period: '2026年5月 — 2026年8月',
         location: 'Cupertino, CA',
-        description: '2026 Summer 实习，所在团队为 Wireless Technology Ecosystem 下的 Analytics & Data Science，方向为 agent 开发与 applied ML。',
+        description: '构建 cellular ML 模型训练、评估、Core ML 打包与 iPhone 性能验证的 agentic developer workflow；参与 WWDC26 Call Context 端侧 LLM workflow，并向 coremltools 与 MLX 上游贡献代码。',
         current: true,
       },
       {
@@ -163,7 +163,7 @@ export const zh = {
     updated: '更新于',
   },
   footer: {
-    lastUpdated: '最后更新：2026年6月',
+    lastUpdated: '最后更新：2026年7月',
     rights: '保留所有权利。',
   },
   education: {
