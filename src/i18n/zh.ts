@@ -48,7 +48,7 @@ export const zh = {
       },
       {
         date: '2026年5月 — 8月',
-        text: '2026 Summer 在 **Apple** 担任软件工程实习生（2026.05.11 — 2026.08.21），构建 cellular ML 模型的 agentic end-to-end training workflow，并参与 **WWDC26 Call Context** 端侧 **LLM 推理** workflow。',
+        text: '2026 Summer 在 **Apple** 担任软件工程实习生（2026.05.11 — 2026.08.21），构建 cellular ML 模型的 agentic end-to-end training workflow，并在 **WWDC26 Call Context** 上使用端侧 **LLM** 开发新的 iOS feature。',
         tag: '工作',
         labels: ['Apple', 'Agentic ML', 'Core ML', '端侧 LLM'],
       },
@@ -122,7 +122,7 @@ export const zh = {
         company: 'Apple',
         period: '2026年5月 — 2026年8月',
         location: 'Cupertino, CA',
-        description: '构建 cellular ML 模型训练、评估、Core ML 打包与 iPhone 性能验证的 agentic developer workflow；参与 WWDC26 Call Context 端侧 LLM workflow，并向 coremltools 与 MLX 上游贡献代码。',
+        description: '构建 cellular ML 模型训练、评估、Core ML 打包与 iPhone 性能验证的 agentic developer workflow；在 WWDC26 Call Context 上使用端侧 LLM 开发新的 iOS feature，集成跨职能内部设施，并负责 session/prewarm 管理、runtime invocation 与 iPhone 侧验证/性能。',
         current: true,
       },
       {
